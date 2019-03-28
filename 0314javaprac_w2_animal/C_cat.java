@@ -1,5 +1,6 @@
 public class C_cat extends B_feline{
     // overrided method 
+    @Override
     public void makeNoise(){
         System.out.println("Cat : meow-meow-");
     }
