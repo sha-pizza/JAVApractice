@@ -8,9 +8,9 @@
 
 |      super     |   |     classname    |   |        sub        |
 |:--------------:|---|:----------------:|---|:-----------------:|
-| ,              |   | A_animalLauncher |   | ,                 |
-| ,              |   | A_animalFunc     |   | ,                 |
-| ,              |   | A_animal         |   | B_canine B_feline |
+|                |   | A_animalLauncher |   |                   |
+|                |   | A_animalFunc     |   |                   |
+|                |   | A_animal         |   | B_canine B_feline |
 |                |   | A_pet            |   |                   |
 |                |   | A_robot          |   |                   |
 | A_animal       |   | B_canine         |   | C_dog C_wolf      |
@@ -23,8 +23,17 @@
 
 [w4 : private, getter and setter](https://github.com/sha-pizza/JAVApractice/tree/master/0328javaprac_w4_private_getset)
 
-
-
+|      A_super     | private                         |    |   B_mid  |    | C_sub   |
+|:----------------:|---------------------------------|----|:--------:|----|---------|
+| A_animalLauncher | ,                               |    |          |    |         |
+| A_animalFunc     | ,                               |    |          |    |         |
+| A_animal         | private food, getter and setter | -> | B_canine | -> | C_dog   |
+|                  |                                 |    |          | -> | C_wolf  |
+|                  |                                 | -> | B_feline | -> | C_cat   |
+|                  |                                 |    |          | -> | C_tiger |
+|                  |                                 |    |          |    |         |
+|                  |                                 |    |          |    |         |
+|                  |                                 |    |          |    |         |
 
 ---------------------------------------
 # 190321 week3
