@@ -2,7 +2,7 @@
 201901 JAVA프로그래밍실습
 
 ---------------------------------------
-# 190321 week4 
+# 190328 week4 
 
 [w4 : interface](https://github.com/sha-pizza/JAVApractice/tree/master/0328javaprac_w4_interface)
 
@@ -10,16 +10,16 @@
 |:--------------:|---|:----------------:|---|:-----------------:|
 |                |   | A_animalLauncher |   |                   |
 |                |   | A_animalFunc     |   |                   |
-|                |   | A_animal         |   | B_canine B_feline |
+|                |   | A_animal         | - | B_canine B_feline |
 |                |   | A_pet            |   |                   |
 |                |   | A_robot          |   |                   |
-| A_animal       |   | B_canine         |   | C_dog C_wolf      |
-| A_animal       |   | B_feline         |   | C_cat C_tiger     |
-| B_feline A_pet |   | C_cat            |   |                   |
-| B_canine A_pet |   | C_dog            |   |                   |
-| A_pet A_robot  |   | C_robodog        |   |                   |
-| B_feline       |   | C_tiger          |   |                   |
-| B_canine       |   | C_wolf           |   |                   |
+| A_animal       | - | B_canine         | - | C_dog C_wolf      |
+| A_animal       | - | B_feline         | - | C_cat C_tiger     |
+| B_feline A_pet | - | C_cat            |   |                   |
+| B_canine A_pet | - | C_dog            |   |                   |
+| A_pet A_robot  | - | C_robodog        |   |                   |
+| B_feline       | - | C_tiger          |   |                   |
+| B_canine       | - | C_wolf           |   |                   |
 
 [w4 : private, getter and setter](https://github.com/sha-pizza/JAVApractice/tree/master/0328javaprac_w4_private_getset)
 
