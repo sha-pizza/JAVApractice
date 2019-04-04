@@ -1,8 +1,25 @@
 # JAVApractice
 201901 JAVA프로그래밍실습
 
+--> wow!
+
 ---------------------------------------
 # 190328 week4 
+
+[folked! openpose](https://github.com/sha-pizza/openpose)
+
+**review**
+
+fork 기능은 다른 사람(들)이 제작한 프로젝트를 저의 repository로 가져와서
+
+편집하고, 수정해 볼 수 있도록 지원해줍니다.
+
+fork기능 없이 download만 가능하게 해 두었더라면 다른 사람의 프로젝트를 
+
+로컬 컴퓨터에서만 사용할 수 있었을 것이고 이를 공유하는데에 여러 어려움이 있었을 것 같은데, 
+
+바로 본인 github의 repository로 가져올 수 있는 기능을 제공해서 여러 모로 유용하겠다는 생각이 들었습니다.
+
 
 [w4 : interface](https://github.com/sha-pizza/JAVApractice/tree/master/0328javaprac_w4_interface)
 
