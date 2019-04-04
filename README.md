@@ -1,30 +1,6 @@
 # JAVApractice
 201901 JAVA프로그래밍실습
 
-→ wow!
-
----------------------------------------
-# 190314 week2 
-
-[2주차 과제 링크](https://github.com/sha-pizza/JAVApractice/tree/master/0314javaprac_w2_animal)
-
-→ inheritance, polymorphism
-
-→ with animal class
-
-**→ inherit structure**
-
-| superclass       |    | <->      |    | subclass   |
-|------------------|----|----------|----|------------|
-| A_               |    | B_       |    | C_         |
-| A_animalLauncher |    |          |    |            |
-| A_animal         | -> | B_human  | -> | C_vet      |
-|                  |    |          | -> | C_PetOwner |
-|                  | -> | B_feline | -> | C_tiger    |
-|                  |    |          | -> | C_cat      |
-|                  | -> | B_Canine | -> | C_wolf     |
-|                  |    |          | -> | C_Dog      |
-|                  | -> | -------> | -> | C_hippo    |
 
 ---------------------------------------
 # 190321 week3
@@ -51,5 +27,30 @@
 |                  | -> | (ab)B_Canine | -> | C_wolf     |
 |                  |    |              | -> | C_Dog      |
 |                  | -> | -----------> | -> | C_hippo    |
+
+---------------------------------------
+# 190314 week2 
+
+[2주차 과제 링크](https://github.com/sha-pizza/JAVApractice/tree/master/0314javaprac_w2_animal)
+
+→ inheritance, polymorphism
+
+→ with animal class
+
+**→ inherit structure**
+
+| superclass       |    | <->      |    | subclass   |
+|------------------|----|----------|----|------------|
+| A_               |    | B_       |    | C_         |
+| A_animalLauncher |    |          |    |            |
+| A_animal         | -> | B_human  | -> | C_vet      |
+|                  |    |          | -> | C_PetOwner |
+|                  | -> | B_feline | -> | C_tiger    |
+|                  |    |          | -> | C_cat      |
+|                  | -> | B_Canine | -> | C_wolf     |
+|                  |    |          | -> | C_Dog      |
+|                  | -> | -------> | -> | C_hippo    |
+
+
 
 ---------------------------------------
