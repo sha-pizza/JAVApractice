@@ -1,11 +1,35 @@
 # JAVApractice
 201901 JAVA프로그래밍실습
 
+---------------------------------------
+# 190321 week4 
+
+[w4 : interface](https://github.com/sha-pizza/JAVApractice/tree/master/0328javaprac_w4_interface)
+
+|      super     |   |     classname    |   |        sub        |
+|:--------------:|---|:----------------:|---|:-----------------:|
+| ,              |   | A_animalLauncher |   | ,                 |
+| ,              |   | A_animalFunc     |   | ,                 |
+| ,              |   | A_animal         |   | B_canine B_feline |
+|                |   | A_pet            |   |                   |
+|                |   | A_robot          |   |                   |
+| A_animal       |   | B_canine         |   | C_dog C_wolf      |
+| A_animal       |   | B_feline         |   | C_cat C_tiger     |
+| B_feline A_pet |   | C_cat            |   |                   |
+| B_canine A_pet |   | C_dog            |   |                   |
+| A_pet A_robot  |   | C_robodog        |   |                   |
+| B_feline       |   | C_tiger          |   |                   |
+| B_canine       |   | C_wolf           |   |                   |
+
+[w4 : private, getter and setter](https://github.com/sha-pizza/JAVApractice/tree/master/0328javaprac_w4_private_getset)
+
+
+
 
 ---------------------------------------
 # 190321 week3
 
-[3주차 과제 ](https://github.com/sha-pizza/JAVApractice/tree/master/0321javaprac_w3_abstracted)
+[w3 : abstrated code link](https://github.com/sha-pizza/JAVApractice/tree/master/0321javaprac_w3_abstracted)
 
 → abstract, interface
 
@@ -31,7 +55,7 @@
 ---------------------------------------
 # 190314 week2 
 
-[2주차 과제 링크](https://github.com/sha-pizza/JAVApractice/tree/master/0314javaprac_w2_animal)
+[w2 : animal code link](https://github.com/sha-pizza/JAVApractice/tree/master/0314javaprac_w2_animal)
 
 → inheritance, polymorphism
 
