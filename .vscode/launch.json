@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - smallCalcul",
+            "request": "launch",
+            "mainClass": "w5_gui.smallCalcul",
+            "projectName": "Pizza_workplace_83e98fc7"
+        }
+    ]
+}
