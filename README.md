@@ -12,15 +12,6 @@
 
 버튼 3개와 클릭 횟수를 표시하는 GUI를 제작하였습니다. 사이즈는 200*200입니다
 
-**→ review : classmate code**
-
-4월 4일 기준 김찬양님의 레포에 업로드된 Animals 파일들을 읽어 보았습니다! 두 가지 흥미로운 발견을 할 수 있었습니다!
-
-먼저, 저와 inherit structure가 매우 다르게 구성되어 있다는 점이 흥미로웠습니다. 저는 petowner과 vet class를 human class의 서브 클래스로 두고, human class는 animal class의 서브 클래스가 되도록 설정해 두었습니다. 반면에 찬양님의 코드에서 petowner는 어떤 수퍼클래스도 가지지 않으며, buyPet() method를 통해 인스턴스로 가지는 Pets Arraylist에 펫 목록을 저장해두도록 설정해 놓은 것을 확인할 수 있었습니다. 이렇게 같은 이름을 가지고도 이렇게 다른 형태의 클래스 구성이 나올 수 있다는 점이 신기했습니다.
-
-두 번째로는, enhanced for loop를 사용해, for (Animal a:animals) 와 같은 방식으로 Animal Arraylist의 오브젝트들을 불러오신 점도 흥미로웠습니다! 저도 지난 주에 for (Object O : animals) 형태로 코드를 수정하였기 때문에 이런 부분이 눈에 띄었 던 것 같습니다.
-
-
 ---------------------------------------
 # 190328 week4 
 
