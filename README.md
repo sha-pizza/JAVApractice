@@ -13,6 +13,10 @@
 아래와 같은 형태의 calculator gui를 구성하였습니다.
 
  <img src="/img/w6calcul.PNG">
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3e8daa1cad66e0ac692faa444e069ced0cbbf215
 
 **→ Launch EC2 instance**
 
