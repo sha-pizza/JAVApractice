@@ -13,6 +13,7 @@
 아래와 같은 형태의 calculator gui를 구성하였습니다.
 
  <img src="/img/w6calcul.png">
+ ![dd](/img/dolphin.png)
 
 **→ Launch EC2 instance**
 
