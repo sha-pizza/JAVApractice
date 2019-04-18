@@ -12,13 +12,13 @@
 
 아래와 같은 형태의 calculator gui를 구성하였습니다.
 
- <img src="/img/w6calcul.png">
+ <img src="/img/w6calcul.PNG">
 
 **→ Launch EC2 instance**
 
-<img src="/img/w6ec2inst1.png" width="50%">
+<img src="/img/w6ec2inst1.PNG" width="50%">
 
-<img src="/img/w6ec2inst2.png" width="50%">
+<img src="\img\w6ec2inst2.PNG" width="50%">
 
 ---------------------------------------
 # 190404 week5
