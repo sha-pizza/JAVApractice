@@ -4,9 +4,26 @@
 --> wow!
 
 ---------------------------------------
+# 190411 week6
+
+[w6 : calculatorGUI](https://github.com/sha-pizza/JAVApractice/tree/master/w6gui)
+
+**→ CalculatorGUI**
+
+아래와 같은 형태의 calculator gui를 구성하였습니다.
+
+ <img src="/img/w6calcul.png">
+
+**→ Launch EC2 instance**
+
+<img src="/img/w6ec2inst1.png" width="50%">
+
+<img src="/img/w6ec2inst2.png" width="50%">
+
+---------------------------------------
 # 190404 week5
 
-[w5 : GUI](https://github.com/sha-pizza/JAVApractice/tree/master/w5_gui)
+[w5 : GUI](https://github.com/sha-pizza/JAVApractice/tree/master/w5gui)
 
 **→ GUI**
 
@@ -24,7 +41,7 @@ fork 기능은 다른 사람(들)이 제작한 프로젝트를 저의 repository
 fork기능 없이 download만 가능하게 해 두었더라면 다른 사람의 프로젝트를 로컬 컴퓨터에서만 사용할 수 있었을 것이고 이를 공유하는데에 여러 어려움이 있었을 것 같은데, 바로 본인 github의 repository로 가져올 수 있는 기능을 제공해서 여러 모로 유용하겠다는 생각이 들었습니다.
 
 
-[w4 : interface](https://github.com/sha-pizza/JAVApractice/tree/master/w4_interface)
+[w4 : interface](https://github.com/sha-pizza/JAVApractice/tree/master/w4interface)
 
 |      super     |   |     classname    |   |        sub        |
 |:--------------:|---|:----------------:|---|:-----------------:|
@@ -41,7 +58,7 @@ fork기능 없이 download만 가능하게 해 두었더라면 다른 사람의 
 | B_feline       | - | C_tiger          |   |                   |
 | B_canine       | - | C_wolf           |   |                   |
 
-[w4 : private, getter and setter](https://github.com/sha-pizza/JAVApractice/tree/master/w4_private_getset)
+[w4 : private, getter and setter](https://github.com/sha-pizza/JAVApractice/tree/master/w4privategetset)
 
 |      A_super     | private                         |    |   B_mid  |    | C_sub   |
 |:----------------:|---------------------------------|----|:--------:|----|---------|
@@ -55,7 +72,7 @@ fork기능 없이 download만 가능하게 해 두었더라면 다른 사람의 
 ---------------------------------------
 # 190321 week3
 
-[w3 : abstrated code link](https://github.com/sha-pizza/JAVApractice/tree/master/w3_abstracted)
+[w3 : abstrated code link](https://github.com/sha-pizza/JAVApractice/tree/master/w3abstracted)
 
 → abstract, interface
 
