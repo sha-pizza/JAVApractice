@@ -4,6 +4,29 @@
 --> wow!
 
 ---------------------------------------
+# 190430 Project 1 : Calculator
+
+[P1 : Calculator](https://github.com/sha-pizza/JAVApractice/tree/master/p1calculator)
+
+**→ Project 1 : CALCULATOR**
+
+이미지gui로 작동하는 calculator를 작성하였습니다
+
+사이즈는 300*500px으로 아래 이미지와 같이 입력버튼과 출력 스크린으로 이루어져 있습니다.
+
+<img src="/img/p1img.jpg">
+
+**→ Class Hierarchy**
+
+A_ calculator
+
+B_ Function, GUI, Screen
+
+C_ NumbButton, OperButton, SpecButton
+
+D_ Label
+
+---------------------------------------
 # 190411 week6
 
 [w6 : calculatorGUI](https://github.com/sha-pizza/JAVApractice/tree/master/w6gui)
