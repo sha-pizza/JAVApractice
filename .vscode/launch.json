@@ -4,6 +4,13 @@
             "type": "java",
             "name": "CodeLens (Launch) - A_calculator",
             "request": "launch",
+            "mainClass": "project1.A_calculator",
+            "projectName": "Pizza_workplace_83e98fc7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - A_calculator",
+            "request": "launch",
             "mainClass": "p1calculator.A_calculator"
         },
         {

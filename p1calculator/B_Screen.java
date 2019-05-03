@@ -155,7 +155,7 @@ public class B_Screen{
                 ImageIcon icon = findIcon(result[i]);
                 ResultValue[i].setLabel('n', icon);
             }
-            ResultValue[11].setLabel('n', new ImageIcon("project1/img/Ndts.png")); 
+            ResultValue[11].setLabel('n', new ImageIcon("p1calculator/img/Ndts.png")); 
         }
         else{
             for (int i=0 ; i<strlen ; i++){
@@ -167,20 +167,20 @@ public class B_Screen{
     // findIcon     -> 계산한 정답 표시를 위한 아이콘을 찾는다
     ImageIcon findIcon(char C){
         ImageIcon icon = new ImageIcon();
-        if (C=='0')         {icon= new ImageIcon("project1/img/N0.png");}
-        else if (C=='1')    {icon= new ImageIcon("project1/img/N1.png");}
-        else if (C=='2')    {icon= new ImageIcon("project1/img/N2.png");}
-        else if (C=='3')    {icon= new ImageIcon("project1/img/N3.png");}
-        else if (C=='4')    {icon= new ImageIcon("project1/img/N4.png");}
-        else if (C=='5')    {icon= new ImageIcon("project1/img/N5.png");}
-        else if (C=='6')    {icon= new ImageIcon("project1/img/N6.png");}
-        else if (C=='7')    {icon= new ImageIcon("project1/img/N7.png");}
-        else if (C=='8')    {icon= new ImageIcon("project1/img/N8.png");}
-        else if (C=='9')    {icon= new ImageIcon("project1/img/N9.png");}
-        else if (C=='.')    {icon= new ImageIcon("project1/img/Ndot.png");}
-        else if (C=='d')    {icon= new ImageIcon("project1/img/Ndts.png");}
-        else if (C=='E')    {icon= new ImageIcon("project1/img/NE.png");}
-        else if (C=='-')    {icon= new ImageIcon("project1/img/Nmin.png");}
+        if (C=='0')         {icon= new ImageIcon("p1calculator/img/N0.png");}
+        else if (C=='1')    {icon= new ImageIcon("p1calculator/img/N1.png");}
+        else if (C=='2')    {icon= new ImageIcon("p1calculator/img/N2.png");}
+        else if (C=='3')    {icon= new ImageIcon("p1calculator/img/N3.png");}
+        else if (C=='4')    {icon= new ImageIcon("p1calculator/img/N4.png");}
+        else if (C=='5')    {icon= new ImageIcon("p1calculator/img/N5.png");}
+        else if (C=='6')    {icon= new ImageIcon("p1calculator/img/N6.png");}
+        else if (C=='7')    {icon= new ImageIcon("p1calculator/img/N7.png");}
+        else if (C=='8')    {icon= new ImageIcon("p1calculator/img/N8.png");}
+        else if (C=='9')    {icon= new ImageIcon("p1calculator/img/N9.png");}
+        else if (C=='.')    {icon= new ImageIcon("p1calculator/img/Ndot.png");}
+        else if (C=='d')    {icon= new ImageIcon("p1calculator/img/Ndts.png");}
+        else if (C=='E')    {icon= new ImageIcon("p1calculator/img/NE.png");}
+        else if (C=='-')    {icon= new ImageIcon("p1calculator/img/Nmin.png");}
         else {
             System.out.println("wrong input");  }  
         return icon;

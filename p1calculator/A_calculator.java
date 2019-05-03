@@ -25,7 +25,7 @@ public class A_calculator implements ActionListener  {
         ** set Panel
         */
         // init panel & put bachground image on
-        ImageIcon icon = new ImageIcon("project1/img/Aback.png");
+        ImageIcon icon = new ImageIcon("p1calculator/img/Aback.png");
         P = new JPanel(){
             // default serialversionUID
             private static final long serialVersionUID = 1L;
@@ -43,7 +43,7 @@ public class A_calculator implements ActionListener  {
         ** set errorScreen
         */
         JLabel errorScreen = new JLabel();
-        errorScreen.setIcon(new ImageIcon("project1/img/Aback_wrong.png"));
+        errorScreen.setIcon(new ImageIcon("p1calculator/img/Aback_wrong.png"));
         errorScreen.setBounds(0, 0, 300, 525);
         errorScreen.setVisible(false);
         P.add(errorScreen);
