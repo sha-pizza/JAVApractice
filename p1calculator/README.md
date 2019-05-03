@@ -17,7 +17,7 @@
 
 when you push '6' button
 
-<img src="/p1calculator/img/03.png"  width="100" height="175">
+<img src="/p1calculator/img/03.PNG"  width="100" height="175">
 
 **ErrorWork**
 
@@ -31,5 +31,5 @@ like '**' two mults
 when you push '=' button, 
 it shows calculated value on screen
 
-<img src="/p1calculator/img/04.png"  width="100" height="175">
+<img src="/p1calculator/img/04.PNG"  width="100" height="175">
 
