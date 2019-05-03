@@ -1,6 +1,6 @@
 # PROJECT1 : CALCUATOR!
 
-<img src="/p1calculator/img/06.gif">
+<img src="/p1calculator/img/06.gif" width="100" height="175">
 
 -------------------------------
 
@@ -10,6 +10,7 @@
 -------------------------------
 
 **IDLE**
-<img src="/p1calculator/img/Aback.png">
+
+<img src="/p1calculator/img/Aback.png"  width="100" height="175">
 
 
