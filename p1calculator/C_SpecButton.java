@@ -16,7 +16,7 @@ public class C_SpecButton extends JButton{
         ICON = icon;                    // 아이콘을 인스턴스로 저장
         Value = V;                      // 버튼에 해당하는 값을 인스턴스로 저장
         setIcon(null);                  // 버튼의 디폴트 이미지는 배경 이미지에 박아두었다. project/img/Aback.png참고
-        setBounds(posX, posY, width, height);  // 버튼의 위치 (posX, posY), 버튼의 크기(60,42로 고정)
+        setBounds(posX, posY, width, height);  // 버튼의 위치 (posX, posY), 버튼의 크기(60,42로 고정) -> '='버튼만 예외로 크기(120,42)
 
         // 버튼의 테두리가 보이지 않도록 설정
         setBackground(null);

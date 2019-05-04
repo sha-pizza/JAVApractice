@@ -20,7 +20,6 @@ public class C_NumbButton extends JButton{
         setBounds(posX, posY, 60, 42);  // 버튼의 위치 (posX, posY), 버튼의 크기(60,42로 고정)
         
         Label_Icon=L_Icon;              // 해당 버튼을 눌렀을 때 스크린에 띄울 라벨의 아이콘 저장
-        
 
         // 버튼의 테두리가 보이지 않도록 설정
         setBackground(null);

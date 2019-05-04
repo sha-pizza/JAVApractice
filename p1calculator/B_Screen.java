@@ -80,14 +80,19 @@ public class B_Screen{
                 inputTail--;                        }       }
 
         else if (SP.Value == '='){                          // is Button
-            if (ScreenValue[inputTail-1].Value=='+' || ScreenValue[inputTail-1].Value=='-' ||
-                ScreenValue[inputTail-1].Value=='*' || ScreenValue[inputTail-1].Value=='/' ){
-                    // ==바로 전에 부호가 입력되었을 경우 배제
-                }
-            else{
-                char[] result = B_Function.calculValue(ScreenValue);
-                showResult(result);
+            if (inputTail==0){
+                // 아무것도 입력되지 않았을 경우 그냥 지나간다
+                System.out.println("Nothing to calcal");
+                return;
             }
+            else if (ScreenValue[inputTail-1].Value=='+' || ScreenValue[inputTail-1].Value=='-' ||
+                     ScreenValue[inputTail-1].Value=='*' || ScreenValue[inputTail-1].Value=='/' ){
+                 // ==바로 전에 부호가 입력되었을 경우 지우기
+                ScreenValue[inputTail-1].deleteLabel();
+                inputTail--;
+            }
+            char[] result = B_Function.calculValue(ScreenValue);
+            showResult(result);
         }
         else {
             System.out.println("nonkind SpecButton");       }
@@ -98,46 +103,38 @@ public class B_Screen{
     */
     // check invalid NUMBER BUTTON input
     boolean checkInput(C_NumbButton NB){                           
-                                                                // 모든 Number Button에 대해 :
-        if (inputTail==0 && NB.Value=='0')  {return false;}     //      -아무것도 없을 때 0 입력할 경우 에러  
-        if (inputTail>47)                   {return false;}     //      -48자리 이상 입력할 경우 에러
+                                                                /* 모든 Number Button에 대해 */
+        if (inputTail==0 && NB.Value=='0')  {return false;}     // 아무것도 없을 때 0 입력할 경우 에러  
+        if (inputTail>47)                   {return false;}     // 48자리 이상 입력할 경우 에러
         if (inputTail>1 && ScreenValue[inputTail-1].Value=='/' && NB.Value=='0') {return false;} // / 뒤에 0 올 경우 에러
         
         return true;    }
 
     // check invalid OPERATOR BUTTON input
     boolean checkInput(C_OperButton OP){                        
-                                                                // 모든 Operator Button에 대해 :
-        if (inputTail>47)                   {return false;}     //      >> 48자리 이상 입력할 경우 에러
+                                                                /* 모든 Operator Button에 대해 */
+        if (inputTail>47)                   {return false;}     // 48자리 이상 입력할 경우 에러
         
-        if (OP.Value =='-'){                                    // '-' Operator에 대해 :
-            if (inputTail !=0 ){
-                char preV = ScreenValue[inputTail-1].Value; // 바로 이전에 입력된 값
-                if (preV=='+' || preV=='-' ||
-                    preV=='.')              {return false;}     //      >> 앞에 + 또는 .있으면 에러
-            }
-        }
-        
-        else if (OP.Value =='.'){                               // '.' Operator에 대해 :
-            if (inputTail==0)               {return false;}     //      >> 아무것도 없을 때 0 입력할 경우 에러
+        else if (OP.Value =='.'){                               /* '.' Operator에 대해 */
+            if (inputTail==0)               {return false;}     // 아무것도 없을 때 0 입력할 경우 에러
 
-            char preV = ScreenValue[inputTail-1].Value; // 바로 이전에 입력된 값
+            char preV = ScreenValue[inputTail-1].Value;         // 바로 이전에 입력된 값을 확인해서
             if (preV=='+' || preV=='-' ||
-                preV=='*' || preV=='/')     {return false;}     //      >> 앞에 +-*/있으면 에러
+                preV=='*' || preV=='/')     {return false;}     // 앞에 +-*/있으면 에러
     
             for (int i=inputTail-1 ; i>0 ; i--){
-                char tmpV = ScreenValue[i].Value;               //      >> 한 수 안에 소수점'.'이 두개 들어갈 수 없음
+                char tmpV = ScreenValue[i].Value;               //한 수 안에 소수점'.'이 두개 들어갈 수 없음
                 if (tmpV == '.')            {return false;}
                 else if (tmpV=='+' || tmpV=='-' || tmpV=='*' || tmpV=='/'){break;}
             }
         }
-        
-        else {                                                  // +,*,/ Operator에 대해 :
-            if (inputTail==0)               {return false;}     //      >> 아무것도 없을 때 0 입력할 경우 에러
-            char preV = ScreenValue[inputTail-1].Value; // 바로 이전에 입력된 값
-            if (preV=='+' || preV=='-' ||
-                preV=='*' || preV=='/')     {return false;} }   //      >> 앞에 +-*/ 가 있을 경우 에러
 
+        else {                                                  /* +,-,*,/ Operator에 대해 */
+            if (inputTail==0)               {return false;}     // 아무것도 없을 때  입력할 경우 에러
+            char preV = ScreenValue[inputTail-1].Value;         // 바로 이전에 입력된 값 확인해서
+            if (preV=='+' || preV=='-' ||
+                preV=='*' || preV=='/')     {return false;}     // 앞에 +-*/ 가 있을 경우 에러
+        }
         return true;
     }
 
@@ -185,6 +182,4 @@ public class B_Screen{
             System.out.println("wrong input");  }  
         return icon;
     }
-    
-
 }
