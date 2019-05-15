@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - A_animLauncher",
+            "request": "launch",
+            "mainClass": "w10serial.A_animLauncher"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - A_calculator",
             "request": "launch",
             "mainClass": "project1.A_calculator",
