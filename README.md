@@ -4,7 +4,23 @@
 --> wow!
 
 ---------------------------------------
-# 190516 week10
+# 190516 week11 : enjoy java on cloud
+
+1. connect to server / as localhost:5901 / and input "vncserver"
+
+
+<img src="/img/w11vnc1.PNG" width="50%">
+
+2. open server with tightVNC / and download VScode  
+
+<img src="/img/w11vnc2.PNG" width="50%">
+
+3. pull from your own github accound / get your previous files!!
+
+<img src="/img/w11vnc3.PNG" width="50%">
+
+---------------------------------------
+# 190509 week10 inclass
 
 [w10 : serializable](https://github.com/sha-pizza/JAVApractice/tree/master/w10serial)
 
