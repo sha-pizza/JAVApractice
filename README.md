@@ -8,16 +8,17 @@
 
 1. connect to server / as localhost:5901 / and input "vncserver"
 
-
 <img src="/img/w11vnc1.PNG" width="50%">
 
 2. open server with tightVNC / and download VScode  
 
 <img src="/img/w11vnc2.PNG" width="50%">
 
-3. pull from your own github accound / get your previous files!!
+3. pull from your own github account / get your previous files!!
 
 <img src="/img/w11vnc3.PNG" width="50%">
+
+now you can write a code on your server ᕕ( ᐛ )ᕗ 
 
 ---------------------------------------
 # 190509 week10 inclass
