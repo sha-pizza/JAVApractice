@@ -4,6 +4,15 @@
 --> wow!
 
 ---------------------------------------
+# 190523 week12 : java socket programming
+
+aSmallServer.java : Server
+
+aSmallClient.java : Client
+
+guiClientLaunch.java : guiClient
+
+---------------------------------------
 # 190516 week11 : enjoy java on cloud
 
 1. connect to server / as localhost:5901 / and input "vncserver"
