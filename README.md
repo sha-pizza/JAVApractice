@@ -4,6 +4,19 @@
 --> wow!
 
 ---------------------------------------
+# 190609 Project 2 : Emoji Chatter
+
+[P2 : Emoji Chatter](https://github.com/sha-pizza/JAVApractice/tree/master/p2emojichatter)
+
+Emoji Chatter is a simple Server-Client chatting program
+
+Multi threaded : more than 2 user can use this chatting program at once!
+
+<img src="/img/p2img.PNG" width="50%">
+
+if you request an emoji to server, server will send you
+
+---------------------------------------
 # 190523 week12 : java socket programming
 
 aSmallServer.java : Server

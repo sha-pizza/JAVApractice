@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Client",
+            "request": "launch",
+            "mainClass": "Client",
+            "projectName": "clnt_b411955c"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Client31",
+            "request": "launch",
+            "mainClass": "Client31",
+            "projectName": "clnt_b411955c"
+        }
+    ]
+}
