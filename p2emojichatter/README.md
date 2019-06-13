@@ -4,6 +4,8 @@
 
 -------------------------------
 
+some description about this chatting program [PDF file!](https://github.com/sha-pizza/JAVApractice/tree/master/p2emojichatter/p2_chat_description.pdf)
+
 you can play this chatter program with [JAR file!](https://github.com/sha-pizza/JAVApractice/tree/master/p2emojichatter/clntJAR)
 
 asset font <OCRAEXT.ttf> referenced from [this page](https://www.wfonts.com/font/ocr-a-extended)
